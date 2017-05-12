@@ -1,7 +1,7 @@
 ﻿
-
 namespace wenslerhRestAPI.Models
 {
+    //items class from my personal project
     public class Item
 	{
 
