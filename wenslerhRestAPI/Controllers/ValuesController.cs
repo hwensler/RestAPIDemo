@@ -60,5 +60,13 @@ namespace wenslerhRestAPI.Controllers
 
             return itemsList;
         }
+
+        //Post list of items - since this is the exact same, I figure return the same list of items for post is fine
+        public List<Item> Post(int id)
+        {
+            //literally return those same items since it's the same as the GET assignment
+            return GetListOfItems(id);
+        }
+
     }
 }
